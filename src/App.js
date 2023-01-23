@@ -1,9 +1,20 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/header/Header";
 
 function App() {
   return (
-    <div className="App">hello obelass app ************************ test</div>
+    <div className="App d-flex flex-column">
+      <Header />
+      <section className="d-flex justify-content-between">
+        <aside className="d-flex" style={{ background: "lightgray" }}>
+          side bar
+        </aside>
+        <main className="d-flex" style={{ background: "lightcoral" }}>
+          main app
+        </main>
+      </section>
+    </div>
   );
 }
 

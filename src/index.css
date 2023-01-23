@@ -24,13 +24,7 @@ header {
   margin: 0;
   padding: 1% 3%;
 }
-aside,
-main {
+.app-section_col-1,
+.app-section_col-2 {
   height: auto;
-}
-aside {
-  width: 10%;
-}
-main {
-  width: 90%;
 }

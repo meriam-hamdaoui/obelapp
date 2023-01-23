@@ -1,5 +1,10 @@
-i.fa-users,
-i.fa-circle-user {
-  width: 2%;
-  height: 2%;
+aside,
+main {
+  height: auto;
+}
+aside {
+  width: 15%;
+}
+main {
+  width: 80%;
 }
